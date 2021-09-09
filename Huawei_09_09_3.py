@@ -1,6 +1,7 @@
 from collections import defaultdict
 
 '''
+题目：计算某个模块target的运行耗时,它的耗时 = 本身的耗时 + max(所有一级前置模块的耗时),若改模块中含有环，返回-1
 测试示例：
 6
 m5 # 结果为-1 // m3 #结果为40
