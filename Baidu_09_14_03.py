@@ -14,7 +14,6 @@ def dijkstra(start,end):
 # costtime 表示链路上的点到node的最短耗时
     costtime = {i:time[(start,i)] for i in road[start]}
     mintime,tempnode = float('inf'),start
-## 需不需要额外添加code避免死循环?
     
 #    test_count = 0    
     while True:
